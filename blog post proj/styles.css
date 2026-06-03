@@ -1,0 +1,38 @@
+article {
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: italic;
+}
+
+.highlight:hover {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.quote:before {
+    content: "“";
+    font-size: 20px;
+    color: gray;
+}
+
+.quote:after {
+    content: "”";
+    font-size: 20px;
+    color: gray;
+}
