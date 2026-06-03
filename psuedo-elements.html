@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo-Elements</title>
+        <style>
+            .qoute::before { /* opening qoute */
+                content: "“";
+                font-size: 20px;
+                color: rgb(132, 250, 69);
+            }
+            .qoute::after { /* closing qoute */
+                content: "”";
+                font-size: 20px;
+                color: rgb(210, 38, 219);
+            }
+            </style>
+    </head>
+    <body>
+        <p class="qoute">I love my job! - Noone whats so ever</p>
+    </body>
+</html>
