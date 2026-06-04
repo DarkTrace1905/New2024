@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Positioning</title>
+        <style>
+
+            .static {
+                position: static;
+                background-color: lightgray;
+                padding: 5px;
+            }
+            .relative {
+                position: relative;
+             /*   top: 20px; */
+                left: 30px;
+            }
+
+            .parent {
+                position: relative;
+                width: 300px;
+                height: 1000px;
+                background-color: lightblue;
+            }
+            
+            .absolute {
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                background-color: lightyellow;
+            }
+            .fixed {
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                background-color: lightcoral;
+                padding: 10px;
+            }
+
+            .sticky {
+                position: sticky;
+                top: 0;
+                background-color: lightgreen;
+                padding: 10px;
+                z-index: 10000;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="sticky">I am a sticky header</header>
+        <div class="static">I am a static div</div>
+        <div class="relative">I am a relatively positioned div</div>
+        <div class="fixed">I am a fixed div</div>
+        <div class="parent">
+            <div class="absolute">I am an absolutely positioned div</div>
+        </div>
+        
+            <p>Scroll down to see the effect of sticky positioning.</p>
+    </body>
+</html>
+
