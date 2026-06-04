@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <style>
+        .overflow {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: hidden; 
+            /* Try changing the overflow property to see how it affects the content that exceeds the container's dimensions. */
+            /* Change to scroll or auto to see the effect */
+            /* overflow: scroll; has scrollbars always */
+            /* overflow: auto; has scrollbars only when needed */
+            /* overflow: visible; is the default and allows content to overflow without restriction */
+            /* overflow: hidden; hides any content that overflows the container's bounds */
+
+        }
+     </style>  
+    </head>
+    <body>
+        <div class="overflow">
+            big text that will overflow until it is hidden or scrollable text
+        </div>
+    </body>
+</html>
