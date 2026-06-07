@@ -1,0 +1,3 @@
+-create an HTML file (index.html)
+-create css file (style.css)
+-apply typography styles
