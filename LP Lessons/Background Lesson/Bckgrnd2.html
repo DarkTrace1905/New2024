@@ -10,7 +10,10 @@
         .bg-image {
             height: 500px;
             background-position: center center;
-            background-image: url('forrest.jpg'); /* if image is being used from laptop ensure to add image into folder and add image name to the URL */
+            background-image: url('forrest.jpg');
+            
+            
+            /* if image is being used from laptop ensure to add image into folder and add image name to the URL */
                                         /*  background-size: cover;
                                             background-position: center;
                                         /*  background-image: url('forrest.jpg'); /* if image is being used from laptop ensure to add image into folder and add image name to the URL */
@@ -26,13 +29,18 @@
              
         }
 
-        .bg-cover {
-            background-image: url('forrest.jpg');
+       .bg-cover {
             background-size: cover;
         }
 
         .bg-contain {
             background-size: contain;
+        }
+       
+        .bg-repeat {
+            background-repeat: repeat;
+        } 
+        .bg-no-repeat {
             background-repeat: no-repeat;
         }
 
@@ -47,11 +55,7 @@
                          <!--- <div class="bg-image">Background Image</div>
                           </div> --->
     </div>
-         <div class="bg-image bg-contanin"> Background Image </div>
-        <div class=""></div>
-    </div>
-    <div class="">
-        <div class=""></div>
-    </div>
+         <div class="bg-image bg-contanin bg-repeat"> Background Image </div>
+       
 </body>
 </html>
